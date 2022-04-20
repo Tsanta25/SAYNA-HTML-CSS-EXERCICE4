@@ -1,0 +1,528 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* font  */
+
+@font-face {
+    font-family: 'spidy';
+    src: url(../far_from_homecoming/Updated.otf);
+}
+
+
+/* Selecteur UNIVESELLE  */
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Variable */
+
+:root {
+    --red: #B11313;
+    --yellow: #f1c530;
+    --blue: #114c92;
+    --black: #000000;
+    --white: #ffffff;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* NavBar  */
+
+nav {
+    display: flex;
+    background: var(--red);
+    padding: 15px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos img {
+    margin: 0 10px;
+}
+
+.listes {
+    display: flex;
+    list-style-type: none;
+}
+
+.listes a {
+    text-decoration: none;
+    color: var(--white);
+    margin-right: 8em;
+}
+
+
+/* Header  */
+
+header {
+    background: url(/Assets/Illustration/img1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    min-height: 800px;
+    width: 100%;
+    padding: 80px;
+}
+
+header h1 {
+    font-family: 'spidy';
+    color: var(--white);
+    font-size: 8vw;
+}
+
+.nav-list {
+    margin-top: 150px;
+}
+
+.btn-1 {
+    margin: 22px 0;
+}
+
+.btn button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#btn-2 {
+    background: inherit;
+    border: 1px solid var(--white);
+}
+
+#btn-2 a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+#btn-1 {
+    background: var(--white);
+    border: 1px solid var(--white);
+    padding: 12px;
+}
+
+#btn-1 a {
+    text-decoration: none;
+    color: #B11313;
+}
+
+h2 {
+    color: var(--white);
+}
+
+h3 {
+    color: var(--white);
+}
+
+
+/* SECTION  */
+
+section.spider-section {
+    background: var(--red);
+    color: #ffffff;
+    padding: 20px;
+}
+
+section.spider-section h3 {
+    font-size: 20px;
+}
+
+#para1 {
+    inline-size: 492.5px;
+}
+
+
+/* spider */
+
+.spider-section {
+    width: 100%;
+    height: auto;
+}
+
+.spider-block {
+    display: flex;
+    max-width: 1300px;
+    justify-content: space-between;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.spider.text {
+    width: 100%;
+    text-align: center;
+    inline-size: 300px;
+    padding-top: 20px;
+}
+
+.text p {
+    width: 100%;
+    text-align: center;
+    inline-size: 300px;
+    padding-top: 20px;
+}
+
+#button-card {
+    color: var(--red);
+    border: none;
+    font-size: 14px;
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 12px 25px;
+    margin: 15px auto;
+}
+
+
+/* SECTION BLUE FORMULAIRE  */
+
+section.section-blue {
+    background: var(--blue);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 19px 19px 19px 0px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form {
+    color: var(--white);
+    text-align: center;
+    width: 500px;
+}
+
+.form h2 {
+    font-family: 'spidy';
+}
+
+.image {
+    margin-right: 20%;
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    border: 1px solid var(--black);
+    border-radius: 50px;
+    outline: none;
+    padding: 5px 15px;
+    margin-top: 15px;
+}
+
+#send {
+    background: inherit;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-top: 15px;
+    color: var(--white);
+    width: 150px;
+    border: 2px solid var(--white);
+    padding: 14px 30px;
+    font-weight: 600;
+}
+
+
+/* SECTION RED  */
+
+section.section-red {
+    color: var(--white);
+    justify-content: space-between;
+    background: var(--red);
+    padding: 15px 0 0 19px;
+    display: flex;
+}
+
+.sign-up .titre h2 {
+    font-family: 'spidy';
+    font-size: 30px;
+}
+
+.img-spnoir img {
+    width: 80vh;
+}
+
+.sign-up {
+    text-align: start;
+}
+
+section.section-red form {
+    margin: 0px;
+}
+
+section.section-red form input {
+    background: inherit;
+    color: var(--white);
+    outline: none;
+    border: 2px solid var(--white);
+    padding: 10px 15px;
+    margin: 15px;
+    width: 500px;
+}
+
+section.section-red form input::placeholder {
+    color: var(--white);
+}
+
+.check-box {
+    margin-left: 18px;
+    line-height: 20px;
+    inline-size: 400px;
+    color: var(--white);
+    display: flex;
+}
+
+.check-box span {
+    border-bottom: 1px solid var(--white);
+}
+
+#box {
+    width: 100px;
+    margin: 0;
+    height: 20px;
+}
+
+.sign-up button {
+    border-radius: 15px;
+    border: none;
+    padding: 15px 15px;
+    color: var(--red);
+    width: 200px;
+    margin: 20px 0 0 170px;
+}
+
+
+/* FOOTER  */
+
+footer {
+    background: var(--black);
+    min-height: 300px;
+    min-width: 500px;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    color: var(-white);
+    padding: 30px;
+}
+
+footer .liste {
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+footer .item {
+    order: 1;
+}
+
+footer .none {
+    display: none;
+}
+
+footer #langue {
+    order: 2;
+}
+
+footer .container a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: var(--white);
+}
+
+footer .item a {
+    margin-left: 15px;
+    color: var(--white);
+    text-decoration: none;
+}
+
+select {
+    background: var(--red);
+    color: var(--white);
+    padding: 5px 20px 5px 4px;
+    outline: none;
+    width: 150px;
+    border: none;
+    border-radius: 50px;
+}
+
+footer .footer-icone {
+    display: flex;
+    margin-top: 150px;
+    margin: 100px 0px 15px 0px;
+    justify-content: center;
+}
+
+footer .footer-icone img {
+    background: var(--red);
+    margin-left: 15px;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+
+/* MEDIA  QUery: format mobile */
+
+@media (max-width:1024px) {
+    body {
+        width: 100%;
+    }
+    section.section-blue {
+        width: 100%;
+        height: 600px;
+        justify-content: center;
+    }
+    #send {
+        margin: 20px auto;
+    }
+    .image img {
+        position: relative;
+    }
+    .form {
+        top: -400px;
+        position: relative;
+        z-index: 2;
+    }
+    #button-card {
+        margin-top: 20px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1024px) {
+    footer .liste {
+        align-items: flex-start;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    footer .container a {
+        text-align: start;
+        flex-direction: column;
+        display: flex;
+    }
+    footer .item {
+        float: left;
+        display: none;
+    }
+    footer .none {
+        flex-direction: column;
+        display: flex;
+    }
+    footer .item a {
+        order: 1;
+        text-align: start;
+        display: flex;
+        flex-direction: column;
+    }
+    footer .logos {
+        margin-top: 150px;
+        order: 2;
+    }
+}
+
+@media screen and(max-width:1024px) {
+    nav,
+    header,
+    section,
+    footer {
+        font-size: 1.2em;
+    }
+    nav .listes {
+        display: none;
+    }
+    .cards-item .card {
+        margin: 0 auto;
+    }
+    section.section-red form input {
+        width: 300px;
+    }
+    #box {
+        width: 50px;
+    }
+    .check-box {
+        inline-size: 250px;
+        align-items: center;
+    }
+    .check-box p {
+        margin-left: 15px;
+    }
+    .img-spnoir {
+        right: 0;
+        top: 100px;
+        position: relative;
+    }
+}
+
+@media screen and(max-width: 1024px) {
+    nav,
+    header,
+    section.section-red,
+    section.section-blue,
+    section.cards-image,
+    footer {
+        text-align: center;
+        min-width: 720px;
+    }
+    header {
+        background-position: right;
+        min-height: none;
+    }
+    header .titre h1 {
+        font-size: 50px;
+    }
+    header .titre {
+        padding-left: 30px;
+        text-align: start;
+    }
+    .cards-image {
+        text-align: center;
+    }
+    #p-cinema {
+        inline-size: 600px;
+        text-align: center;
+    }
+    .cards-item {
+        width: 100%;
+        margin: 0 auto;
+    }
+    footer .liste {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    footer #langue {
+        order: 1;
+        /* justify-content: center; */
+    }
+    footer .logos {
+        padding-top: 50px;
+        margin: 0 auto;
+    }
+    footer .footer-icone {
+        margin-top: 45px;
+    }
+}
